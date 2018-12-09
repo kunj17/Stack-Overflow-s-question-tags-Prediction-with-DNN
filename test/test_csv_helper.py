@@ -2,7 +2,6 @@ import src.util.csv_helper as csv_helper
 
 result = []
 
-
 def setup_module(module):
     global result
     result = csv_helper.read('data/questions.csv', 'data/question_tags.csv')
